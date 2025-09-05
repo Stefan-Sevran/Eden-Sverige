@@ -1,1 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+/* Optional: prose tweaks if you add md content later */
+.prose p { @apply text-neutral-300; }
 
